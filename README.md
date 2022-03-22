@@ -7,6 +7,8 @@ module "vpc" {
     cidr_block = "10.0.0.0/16"
     tags = { 
         Name = "Dav"
+    private_subnets_cidr = ["10.0.0.0/24"]
+   
     }
 
 }
